@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{383bdb36-3a44-49fc-967b-48d500408fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{8e914a54-b47e-4715-a4c0-3957329b80ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test\buildNumber.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="core\drawData.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\getPoint.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\buildNumber.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="core\drawData.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\getPoint.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+</Project>
